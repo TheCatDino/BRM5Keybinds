@@ -52,8 +52,41 @@ Numpad3::
    Loop, 3 {
       Click 400, 600
    }
- Click 400, 430
+   Click 400, 430
    Loop, 3 {
       Click 400, 600
+   }
+Return
+
+
+Numpad4:: 
+   Send {Shift Down}
+   Click 720, 475
+   Click 760, 475
+   Click 800, 475
+   Send {Shift Up}
+   Click Down, 720, 325
+   Click Up, 775, 150
+   Click Down, 760, 325
+   Click Up, 775, 150
+   Click Down, 800, 325
+   Click Up, 775, 150
+   Click Down, 720, 400
+   Click Up, 775, 150
+   Click Down, 760, 400
+   Click Up, 775, 150
+   Click Down, 800, 400
+   Click Up, 775, 150
+   Click Down, 1325, 425
+   Click Up, 775, 150
+   Click 400, 600
+   Loop, 6 {
+      Click 400, 600
+   }
+   Click 400, 350
+   Click 400, 675
+   Send {WheelDown 2}
+   Loop, 3 {
+      Click 400, 750
    }
 Return
